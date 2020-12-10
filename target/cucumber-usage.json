@@ -5,12 +5,12 @@
       {
         "name": "I set API endpoint",
         "aggregatedDurations": {
-          "median": 0.997,
-          "average": 0.997
+          "median": 0.972,
+          "average": 0.972
         },
         "durations": [
           {
-            "duration": 0.997,
+            "duration": 0.972,
             "location": "file:///C:/Users/cpanagio/workspace-java8/cucumberdemo/Features/DemoFeature.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I make a POST request",
         "aggregatedDurations": {
-          "median": 0.852,
-          "average": 0.852
+          "median": 0.536,
+          "average": 0.536
         },
         "durations": [
           {
-            "duration": 0.852,
+            "duration": 0.536,
             "location": "file:///C:/Users/cpanagio/workspace-java8/cucumberdemo/Features/DemoFeature.feature:5"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "I receive a valid response",
         "aggregatedDurations": {
-          "median": 0.033,
-          "average": 0.033
+          "median": 0.029,
+          "average": 0.029
         },
         "durations": [
           {
-            "duration": 0.033,
+            "duration": 0.029,
             "location": "file:///C:/Users/cpanagio/workspace-java8/cucumberdemo/Features/DemoFeature.feature:6"
           }
         ]

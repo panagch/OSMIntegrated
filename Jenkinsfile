@@ -11,7 +11,7 @@ pipeline {
 				echo "Git Pull is completed"
             }
 		}
-        stage('GenerateTestSuite'){
+        stage('REST request with Cucumber'){
             steps{
 				echo "Suite execution is starting"
 				bat "mvn test"
@@ -19,9 +19,4 @@ pipeline {
 			}
         }
     }
-     post {
-      always {
-        junit '**/reports/*.xml'
-      }
-   } 
 }

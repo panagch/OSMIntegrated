@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-12-10T11:31:29.943Z",
+        "start_timestamp": "2020-12-10T11:38:16.535Z",
         "line": 3,
         "name": "Test POST request",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 997000000,
+              "duration": 972000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 852000000,
+              "duration": 536000000,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 33000000,
+              "duration": 29000000,
               "status": "passed"
             },
             "line": 6,

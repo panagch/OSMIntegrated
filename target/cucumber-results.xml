@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.059">
-<testcase classname="Test Post Request on REST API" name="Test POST request" time="1.936">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.726">
+<testcase classname="Test Post Request on REST API" name="Test POST request" time="1.59">
 <system-out><![CDATA[Given I set API endpoint....................................................passed
 When I make a POST request..................................................passed
 Then I receive a valid response.............................................passed

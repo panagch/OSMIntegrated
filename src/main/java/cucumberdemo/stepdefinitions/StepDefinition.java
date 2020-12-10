@@ -20,11 +20,12 @@ public class StepDefinition {
 	String jsonUser;
 	Response rs;
 	WebTarget myResource;
+	Client client;
 	
 	@Given("I set API endpoint")
 	public void setEndpoint() {
 		try {
-			Client client = ClientBuilder.newClient();
+			client = ClientBuilder.newClient();
 			User user = new User("morpheus", "leader");
 			ObjectMapper mapper = new ObjectMapper();
 	        jsonUser = mapper.writeValueAsString(user);
@@ -52,6 +53,7 @@ public class StepDefinition {
 			System.out.println("Job is: " + response.getJob());
 			System.out.println("Id is: " + response.getId());
 			System.out.println("Created at: " + response.getCreatedAt());
+			client.close();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
