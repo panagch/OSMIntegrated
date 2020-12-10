@@ -1,0 +1,5 @@
+
+Scenario: Test POST request       # Features/DemoFeature.feature:3
+  Given I set API endpoint        # cucumberdemo.stepdefinitions.StepDefinition.setEndpoint()
+  When I make a POST request      # cucumberdemo.stepdefinitions.StepDefinition.makeRequest()
+  Then I receive a valid response # cucumberdemo.stepdefinitions.StepDefinition.receiveResponse()

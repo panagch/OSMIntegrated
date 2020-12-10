@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-10T10:16:30.276Z",
+        "line": 3,
+        "name": "Test POST request",
+        "description": "",
+        "id": "test-post-request-on-rest-api;test-post-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1077000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I set API endpoint",
+            "match": {
+              "location": "cucumberdemo.stepdefinitions.StepDefinition.setEndpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 519000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I make a POST request",
+            "match": {
+              "location": "cucumberdemo.stepdefinitions.StepDefinition.makeRequest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I receive a valid response",
+            "match": {
+              "location": "cucumberdemo.stepdefinitions.StepDefinition.receiveResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Post Request on REST API",
+    "description": "",
+    "id": "test-post-request-on-rest-api",
+    "keyword": "Feature",
+    "uri": "file:Features/DemoFeature.feature",
+    "tags": []
+  }
+]

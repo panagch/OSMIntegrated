@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I set API endpoint",
+    "steps": [
+      {
+        "name": "I set API endpoint",
+        "aggregatedDurations": {
+          "median": 1.077,
+          "average": 1.077
+        },
+        "durations": [
+          {
+            "duration": 1.077,
+            "location": "file:///C:/Users/cpanagio/workspace-java8/cucumberdemo/Features/DemoFeature.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I make a POST request",
+    "steps": [
+      {
+        "name": "I make a POST request",
+        "aggregatedDurations": {
+          "median": 0.519,
+          "average": 0.519
+        },
+        "durations": [
+          {
+            "duration": 0.519,
+            "location": "file:///C:/Users/cpanagio/workspace-java8/cucumberdemo/Features/DemoFeature.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I receive a valid response",
+    "steps": [
+      {
+        "name": "I receive a valid response",
+        "aggregatedDurations": {
+          "median": 0.03,
+          "average": 0.03
+        },
+        "durations": [
+          {
+            "duration": 0.03,
+            "location": "file:///C:/Users/cpanagio/workspace-java8/cucumberdemo/Features/DemoFeature.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]
